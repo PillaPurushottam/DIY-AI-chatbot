@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #240046;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo + Title Wrapper */
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    height: 60px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Categories Section */
+.categories {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.categories h2 {
+    font-family: 'Playfair Display', serif;
+    color: #002855;
+    margin-bottom: 10px;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.category-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #545d43;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-buttons button:hover {
+    background-color: #3b4430;
+}
+
+/* Chatbot Container */
+.chatbot-container {
+    width: 90%;
+    height: 75vh;
+    max-width: 900px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Chatbot iFrame */
+iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #240046;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 0.95rem;
+}
